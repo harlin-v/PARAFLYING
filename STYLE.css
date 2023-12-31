@@ -2,6 +2,7 @@
 
 body {
     overflow-x: hidden;
+    overflow-y: auto;
     font-family: 'Lato', sans-serif;
     color: #505962;
     
@@ -17,6 +18,7 @@ body {
 
 /*Navigation*/
 .navbar {
+    /* width: auto; */
     text-transform: uppercase;
     font-weight: 700;
     font-size: .9rem;
@@ -68,7 +70,7 @@ body {
     font-weight: 700;
     letter-spacing: .3rem;
     text-shadow: .1rem .1rem .8rem black;
-    padding-bottom: rem;
+    padding-bottom: 2rem;
 }
 
 .caption h3 {
@@ -238,7 +240,7 @@ hr.socket {
 
 @media (max-width: 767px) {
     .caption h1 {
-        font-size: 3.8rem;
+        font-size: 3rem;
         
         letter-spacing: .15rem;
        
